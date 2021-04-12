@@ -2,6 +2,14 @@
     background-color:  #595e96;
     margin: 0;
 }
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 #cabecalho {
     background-color: #cc4d00;
     font-size: 40px;
@@ -43,6 +51,9 @@ section button {
 
    
 }
+.conteudo-content {
+    flex: 1;
+}
 .bt1 {
     background-color:#90df69 ;
     margin-left: 27.5%;   
@@ -71,6 +82,7 @@ footer {
 .rodape {
     position: absolute;
     bottom: 0;
+    flex-shrink: 0;
     width: 100%;
     height: 150px;
     background-color:  #d8d8d8;
