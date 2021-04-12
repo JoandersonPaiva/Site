@@ -1,0 +1,102 @@
+*{
+    background-color:  #595e96;
+    margin: 0;
+}
+#cabecalho {
+    background-color: #cc4d00;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+.layout {
+    text-align: center;
+    padding-top: 5.5%;
+    margin: 0;
+    border: 0;
+}
+.marca {
+    font-size: 100px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(83, 71, 71);
+}
+.frase {
+    font-family: sans-serif;
+    font-size: 30px;
+    padding-left: 5%;
+    color: #d67723;
+}
+
+section button {
+    width: 220px;
+    height: 180px;
+    font-size: 38.5px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    margin: 15px;
+    margin-top: 3%;
+    border: none;
+
+   
+}
+.bt1 {
+    background-color:#95c47e ;
+    margin-left: 25%;
+ 
+    
+}
+.bt2 {
+    background-color: #e06665;
+}
+.bt3 {
+    background-color:#6d9eeb ;
+    
+}
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.rodape {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    background-color:  #d8d8d8;
+}
+label{
+    width: 440px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    }
+input[type="email"] {
+    background-color: white;
+    border: none;
+    width: 400px;
+    height: 40px;
+    padding: 0 15px;
+    right: 40%;
+    border: solid 1px;
+    
+    
+}
+.bt4 {
+    background-color: #cb4d00;
+    color: white;
+    font-weight: bold;
+    height: 42px;
+    position: absolute;
+    border: none;
+    padding: 0 15px;
+    cursor: pointer;
+    border: solid black 1px;
+    
+}
