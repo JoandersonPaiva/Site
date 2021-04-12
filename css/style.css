@@ -84,9 +84,10 @@ input[type="email"] {
     height: 40px;
     padding: 0 15px;
     right: 40%;
-    border: solid 1px;
-    
-    
+    border: solid 1px;   
+}
+input:hover {
+    background-color: rgb(193, 189, 211);
 }
 .bt4 {
     background-color: #cb4d00;
@@ -99,4 +100,7 @@ input[type="email"] {
     cursor: pointer;
     border: solid black 1px;
     
+}
+.bt4:hover {
+    background-color: #f1630a;
 }
