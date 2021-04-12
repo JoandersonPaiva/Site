@@ -39,21 +39,29 @@ section button {
     margin: 15px;
     margin-top: 3%;
     border: none;
+    cursor: pointer;
 
    
 }
 .bt1 {
-    background-color:#95c47e ;
-    margin-left: 25%;
- 
-    
+    background-color:#90df69 ;
+    margin-left: 25%;   
+}
+.bt1:hover {
+    background-color:#69be3f ;
 }
 .bt2 {
     background-color: #e06665;
 }
+.bt2:hover {
+    background-color: #d44444;
+}
 .bt3 {
     background-color:#6d9eeb ;
     
+}
+.bt3:hover {
+    background-color:#427bd6 ;
 }
 footer {
     position: absolute;
