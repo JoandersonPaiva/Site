@@ -55,8 +55,7 @@ section button {
     flex: 1;
 }
 .bt1 {
-    background-color:#90df69 ;
-    margin-left: 27.5%;   
+    background-color:#90df69 ;  
 }
 .bt1:hover {
     background-color:#69be3f ;
